@@ -4,6 +4,7 @@ This is a configuration sheet after installation of manjaro(PRC)
 这是一份中国地区的manjaro配置单
 
 ## 换源
+==逐条输入==
 ```
 sudo pacman-mirrors -i -c China -m rank
 sudo pacman -Syyu
