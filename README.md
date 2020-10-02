@@ -12,15 +12,15 @@ sudo pacman -Syyu
 ##  添加arch源  
 - 编辑pacman arch源
 
-sudo vi /etc/pacman.conf
-
+`sudo vi /etc/pacman.conf`
+```sh
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
-
+```
 ## 更新系统&密钥pkg签名
-sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
+`sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring`
 
 ## 更新系统 
-sudo pacmam -Su
+`sudo pacmam -Su`
 
