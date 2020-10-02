@@ -4,7 +4,7 @@ This is a configuration sheet after installation of manjaro(PRC)
 这是一份中国地区的manjaro配置单
 
 ## 换源
-```sh
+```
 sudo pacman-mirrors -i -c China -m rank
 sudo pacman -Syyu
 ```
@@ -13,7 +13,7 @@ sudo pacman -Syyu
 - 编辑pacman arch源
 
 `sudo vi /etc/pacman.conf`
-```conf
+```
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
