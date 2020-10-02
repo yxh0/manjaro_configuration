@@ -13,7 +13,7 @@ sudo pacman -Syyu
 - 编辑pacman arch源
 
 `sudo vi /etc/pacman.conf`
-```sh
+```conf
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
