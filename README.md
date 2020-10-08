@@ -23,5 +23,5 @@ Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 `sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring`
 
 ## 现在可以全面更新系统了 
-`sudo pacmam -Su`
+`sudo pacman -Su`
 
